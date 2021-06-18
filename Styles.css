@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0px;
+    z-index: -4;
+    background-color: black;
+}
+
+
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 1260px 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: sans-serif;
+    
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    
+    text-decoration: none;
+}
+#navbar ul li a:hover,
+#navbar ul li a:active{
+    color: rgb(255, 255, 154);
+}
+
+
+
+
+
+/* Second Nav Bar */
+.container {
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 5;
+    top: 0px;
+    background-color: white;
+}
+
+.box2 ul{
+    display: flex;
+}
+.box2 ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.box2 ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    color: black;
+}
+.box2 ul li a:hover{
+    color: red;
+}
+
+#search{
+    padding: 15px;
+    border: 1px solid rgb(107, 65, 65);
+    border-radius: 50px;
+}
+
+
+/* Advertisement */
+.ad {
+    display: flex;
+    background-color: rgb(191, 221, 241);
+}
+.caption {
+    font-size: 5rem;
+    justify-content: center;
+    padding: 75px 50px 0px;
+}
+.ad img{
+    padding: 50px 100px 0px;
+}
+.caption h5{
+    color: rgb(84, 84, 223);
+    font-family: cursive;
+}
+.caption button{
+    background-color: rgb(91, 91, 250);
+    border: transparent;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+@keyframes butt{
+    0%{
+        color: white;
+        background-color: rgb(91, 91, 250);
+    }
+    50%{
+        color: rgb(255, 255, 255);
+        background-color: rgb(159, 159, 253);
+    }
+    100%{
+        color: white;
+        background-color: rgb(91, 91, 250);
+    }
+
+}
+.caption button:hover{
+    animation-duration: 4s;
+    animation-delay: .1ms;
+    animation-iteration-count: infinite;
+    animation-name: butt;
+    cursor: pointer;
+    
+}
+
+
+/* Shop By category */
+.cathead {
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    font-size: 3rem;
+}
+
+.categories{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 343px;
+}
+.categories h4{
+    
+    padding: 100px 300px;
+    font-weight: bolder ;
+    font-style: italic;
+    font-size: 2rem;
+}
+.categories h4:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.cat1{
+    background: url(Images/cat1.png);
+    width: 564px;
+}
+.cat2{
+    background: url(Images/cat2.png);
+    width: 564px;
+    }
+.cat3{background: url(Images/cat3.png);
+    width: 564px;
+}
+
+
+/* TABS */
+.main {
+    display: flex;
+    margin: 80px 80px;
+    /* width: 100%; */
+    justify-content: space-between ;
+}
+.cap{
+    font-size: 2rem;
+}
+.filter {
+    display: flex;
+    
+}
+.tabs {
+    margin: 5px 5px;
+    padding: 13px;
+    font-size: 1.5rem;
+    
+}
+.tabs h2:hover{
+    color: red;
+    cursor: pointer; 
+    
+}
+
+/* TAB CONTENTS */
+.tabcontent{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.tabcontent h4{
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: wavy;
+}
+.tabcontent h6{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#new {
+    display: none;
+    
+}
