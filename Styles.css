@@ -36,7 +36,7 @@
 
 #navbar ul li{ 
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.5em;
     
 }
 
@@ -69,19 +69,42 @@
 
 .box2 ul{
     display: flex;
+   
 }
 .box2 ul li{
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.5em;
+    
 }
 .box2 ul li a{
     display: block;
     padding: 3px 22px;
     text-decoration: none;
     color: black;
+    
 }
 .box2 ul li a:hover{
     color: red;
+}
+.dropdown{
+    
+}
+.dropcontent{
+    
+    /* border-top: solid 10px red; */
+    display: none;
+    position: absolute;
+    margin: 0px 20px;
+    padding-top: 45px;
+    background-color: white;
+        
+}
+.dropdown:hover .dropcontent{
+    display: block;
+    
+}
+.dropcontent a:hover {
+    background-color: rgb(212, 208, 208) ;
 }
 
 #search{
@@ -97,7 +120,7 @@
     background-color: rgb(191, 221, 241);
 }
 .caption {
-    font-size: 5rem;
+    font-size: 5em;
     justify-content: center;
     padding: 75px 50px 0px;
 }
@@ -112,7 +135,7 @@
     background-color: rgb(91, 91, 250);
     border: transparent;
     color: white;
-    font-size: 1.3rem;
+    font-size: .3em;
     border-radius: 100px;
     padding: 15px 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -148,7 +171,7 @@
     text-align: center;
     margin: auto;
     padding: 100px;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .categories{
@@ -162,7 +185,7 @@
     padding: 100px 300px;
     font-weight: bolder ;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 2em;
 }
 .categories h4:hover{
     color: red;
@@ -190,7 +213,7 @@
     justify-content: space-between ;
 }
 .cap{
-    font-size: 2rem;
+    font-size: 2em;
 }
 .filter {
     display: flex;
@@ -199,7 +222,7 @@
 .tabs {
     margin: 5px 5px;
     padding: 13px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     
 }
 .tabs h2:hover{
@@ -213,17 +236,54 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+
 }
 .tabcontent h4{
-    font-size: 1.8rem;
+    font-size: 1.8em;
     text-align: center;
     text-decoration: wavy;
 }
 .tabcontent h6{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-align: center;
 }
 #new {
     display: none;
     
 }
+
+/* MODELS */
+
+.models {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-top: 100px;
+    height: 400px;
+    
+
+}
+
+.c2 ul li{
+    list-style: none;
+    
+}
+.c2 ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color:#868c98;}
+.c2 ul li a:hover{
+    padding-left: 1px;
+    color: rgb(88, 88, 151);
+}    
