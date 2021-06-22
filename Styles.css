@@ -251,6 +251,10 @@
     display: none;
     
 }
+.tabcontent h4:hover{
+    color: red;
+    cursor: pointer;
+}
 
 /* MODELS */
 
